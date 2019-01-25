@@ -31,4 +31,5 @@ body{margin:0 0;padding:0 0;background:#f6f4a8;font-family:'微软雅黑'}
 	.btn{width:47%;height:50px;border-radius:10px;float:left; background:black;color:white;text-align:center;line-height:50px;font-size:25px;letter-spacing:1px;text-decoration:none;}
 	.btn-block{width:100%;height:50px;display:block;margin:0 auto;margin-top:-1027px;}
 	#qucick-check>.btn{width:100%;margin-top:670px!important;}
+	#live800iconlink>img{width:100px!important;height:auto;}
 }
