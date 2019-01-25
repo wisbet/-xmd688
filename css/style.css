@@ -3,10 +3,32 @@
 
 body{margin:0 0;padding:0 0;background:#f6f4a8;font-family:'微软雅黑'}
 
-.main-bg{width:100%;max-width:1920px;min-width:375px; height:2100px;display:block;margin:0 auto;background:url("../images/SinglePage.jpg") no-repeat center center;padding-top:1338px;background-size:cover;}
+.main-bg{width:100%;max-width:1920px;min-width:1200px; height:2100px;display:block;margin:0 auto;background:url("../images/SinglePage.jpg") no-repeat center center;padding-top:1338px;background-size:cover;}
 
 .btn-block{width:820px;height:80px;display:block;margin:0 auto;}
 .btn{width:400px;height:80px;border-radius:10px;float:left; background:black;color:white;text-align:center;line-height:80px;font-size:30px;letter-spacing:1px;text-decoration:none;}
 .btn.red{background:#c23838;box-shadow: 0px 6px 0px 0px rgba(137, 47, 47, 1);}
 .btn.blue{background:#387fc2;box-shadow: 0px 6px 0px 0px rgba(36, 90, 140, 1);}
 
+
+
+@media only screen and (max-width:768px){
+	.main-bg{width:100%;max-width:768px;min-width:375px; height:100vh;display:block;margin:0 auto;background:url("../images/SinglePage-Mobile.jpg") no-repeat top center;background-size:cover;padding-bottom:800px;}
+	.btn-block{width:100%;height:80px;display:block;margin:0 auto;margin-top:-700px;}
+	.btn{width:48.6%;height:70px;border-radius:10px;float:left; background:black;color:white;text-align:center;line-height:80px;font-size:30px;letter-spacing:1px;text-decoration:none;}
+.btn.red{background:#c23838;box-shadow: 0px 10px 0px 0px rgba(137, 47, 47, 1);}
+.btn.blue{background:#387fc2;box-shadow: 0px 10px 0px 0px rgba(36, 90, 140, 1);}
+	#qucick-check{width:90%!important;margin:0 auto!important;}
+	#qucick-check>.btn{width:100%;margin-top:1400px!important;}
+}
+
+@media only screen and (min-width: 736px) and (max-width:736px){
+	.main-bg{width:100%;max-width:768px;min-width:375px; height:100vh;display:block;margin:0 auto;background:url("../images/SinglePage-Mobile.jpg") no-repeat top center;background-size:cover;padding-bottom:1300px;}
+}
+
+@media only screen and (min-width: 321px) and (max-width: 414px) {
+	.main-bg{width:100%;max-width:414px;min-width:320px; height:auto;display:block;margin:0 auto;background:url("../images/SinglePage-Mobile.jpg") no-repeat top center;background-size:cover;padding-bottom:200px;}
+	.btn{width:47%;height:50px;border-radius:10px;float:left; background:black;color:white;text-align:center;line-height:50px;font-size:25px;letter-spacing:1px;text-decoration:none;}
+	.btn-block{width:100%;height:50px;display:block;margin:0 auto;margin-top:-1027px;}
+	#qucick-check>.btn{width:100%;margin-top:670px!important;}
+}
